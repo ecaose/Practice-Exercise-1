@@ -1058,7 +1058,7 @@
           },
           {
             "position": {
-              "x": 559,
+              "x": 629,
               "y": 200
             },
             "size": {
@@ -1277,6 +1277,214 @@
               "cell": "b3ea49c0-2cc4-4d17-9a91-c86c23bfdbb6",
               "port": "668ab0ae-9223-45f4-8fc8-75b5280c22ec"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Pending order \ndata",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Pending order \ndata"
+            ],
+            "id": "c4901704-6c27-41ca-85a2-fb5e55e7bedb",
+            "source": {
+              "x": 619,
+              "y": 232
+            },
+            "target": {
+              "cell": "bda50fe7-2733-40af-9ac5-7ade3b629fa7",
+              "port": "d944057a-dbc1-411e-8e2f-9b410fdcc480"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Order list",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Order list"
+            ],
+            "id": "2e38f5ee-031f-4cb2-93ca-68c26e6eb192",
+            "source": {
+              "x": 330,
+              "y": 240
+            },
+            "target": {
+              "cell": "94bcc281-1b5a-45ae-8362-dd45d713db20",
+              "port": "d5dd4073-a995-4e4b-b898-71d4e6253891"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Updated order \nstatus",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Updated order \nstatus"
+            ],
+            "id": "34848cdc-2f86-432f-80e0-3946e26a5816",
+            "source": {
+              "x": 153,
+              "y": 215
+            },
+            "target": {
+              "cell": "bda50fe7-2733-40af-9ac5-7ade3b629fa7",
+              "port": "a45d275b-c6af-4ae1-8877-de21e4f9361d"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validated status update / \nupdate order record",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validated status update / \nupdate order record"
+            ],
+            "id": "ce25479b-c909-4cc4-a332-2996b3001f2e",
+            "source": {
+              "x": 430,
+              "y": 228
+            },
+            "target": {
+              "cell": "b3ea49c0-2cc4-4d17-9a91-c86c23bfdbb6",
+              "port": "668ab0ae-9223-45f4-8fc8-75b5280c22ec"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 170
+              }
+            ]
           }
         ]
       }
