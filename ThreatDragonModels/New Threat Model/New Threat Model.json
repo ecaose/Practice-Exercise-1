@@ -462,7 +462,7 @@
             },
             "vertices": [
               {
-                "x": 440,
+                "x": 450,
                 "y": 370
               }
             ]
@@ -516,6 +516,62 @@
               {
                 "x": 250,
                 "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Order details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Order details"
+            ],
+            "id": "3a001099-6c3f-4240-b061-60b917b5a1ef",
+            "source": {
+              "cell": "17445d75-186f-43c3-a5db-e16deaa4c85e",
+              "port": "ceb5c24b-e26c-4d29-9447-4146d4a19256"
+            },
+            "target": {
+              "cell": "cc9eaf70-52c5-4666-a819-22a4b14de79d",
+              "port": "21799868-5884-490a-a142-0990e3393ca1"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 270
+              },
+              {
+                "x": 270,
+                "y": 270
               }
             ]
           },
@@ -638,8 +694,8 @@
           },
           {
             "position": {
-              "x": 60,
-              "y": 150
+              "x": 50,
+              "y": 175
             },
             "size": {
               "width": 110,
