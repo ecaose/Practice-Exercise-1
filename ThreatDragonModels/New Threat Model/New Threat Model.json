@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 50,
-              "y": 250
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -104,23 +104,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "52e9d3fd-c6c3-430a-93d5-4be4eb7ee141"
+                  "id": "30395cb6-7389-401b-8665-c96076ddacdd"
                 },
                 {
                   "group": "right",
-                  "id": "3795ae74-fdad-433e-9c30-36b934ee8bad"
+                  "id": "1446e409-90da-4ada-b73a-3e996ee0f7ce"
                 },
                 {
                   "group": "bottom",
-                  "id": "5aadeffc-6a95-43db-a8d5-ea779b8ff37a"
+                  "id": "82819a3f-942f-4ec1-b4db-4291d586756d"
                 },
                 {
                   "group": "left",
-                  "id": "8d82dd6b-4d97-48fd-8381-eb7ceb012d4b"
+                  "id": "f1b2318a-7a20-48cd-93ed-3df5f92fba8c"
                 }
               ]
             },
-            "id": "bd0d72f9-1f31-4f36-a922-d910d7c8e5c8",
+            "id": "ac3a0e07-94cb-4052-99e1-7b0cd0fedd59",
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
@@ -132,27 +132,20 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": 299,
-              "y": 230
+              "x": 269,
+              "y": 190
             },
             "size": {
-              "width": 100,
+              "width": 120,
               "height": 100
             },
             "attrs": {
               "text": {
-                "text": "Web \nApplication \nServer"
+                "text": "Web\nApplication\nServer"
               },
               "body": {
                 "stroke": "#333333",
@@ -228,27 +221,27 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "06b22614-374c-41bb-ae5e-1b9f060cd7d6"
+                  "id": "338ba971-29c4-4838-8115-d3e53278f17e"
                 },
                 {
                   "group": "right",
-                  "id": "4e9d6973-88e0-40b3-836a-84ba5d9fa775"
+                  "id": "64916259-f7e3-4558-8f09-5309aa17fdc3"
                 },
                 {
                   "group": "bottom",
-                  "id": "43e69577-caa8-41f1-b190-aa3cdf3ef831"
+                  "id": "9c93398f-839a-480b-b8e0-ec37201728fa"
                 },
                 {
                   "group": "left",
-                  "id": "8b7c9e36-d6ea-484f-ba0d-1ec6ebc792e9"
+                  "id": "eeed062c-c212-4bbe-9760-7067c5f6a06c"
                 }
               ]
             },
-            "id": "44461aa5-7b73-4922-87aa-6794d2e35df4",
+            "id": "cbdf6af1-6584-4206-80c4-f0811bdcf3a2",
             "zIndex": 2,
             "data": {
               "type": "tm.Process",
-              "name": "Web \nApplication \nServer",
+              "name": "Web\nApplication\nServer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -263,8 +256,8 @@
           },
           {
             "position": {
-              "x": 430,
-              "y": 340
+              "x": 426.5,
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -348,23 +341,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "52e9d3fd-c6c3-430a-93d5-4be4eb7ee141"
+                  "id": "30395cb6-7389-401b-8665-c96076ddacdd"
                 },
                 {
                   "group": "right",
-                  "id": "3795ae74-fdad-433e-9c30-36b934ee8bad"
+                  "id": "1446e409-90da-4ada-b73a-3e996ee0f7ce"
                 },
                 {
                   "group": "bottom",
-                  "id": "5aadeffc-6a95-43db-a8d5-ea779b8ff37a"
+                  "id": "82819a3f-942f-4ec1-b4db-4291d586756d"
                 },
                 {
                   "group": "left",
-                  "id": "8d82dd6b-4d97-48fd-8381-eb7ceb012d4b"
+                  "id": "f1b2318a-7a20-48cd-93ed-3df5f92fba8c"
                 }
               ]
             },
-            "id": "a640c64c-e95c-4ebd-84c0-f0d0f71af519",
+            "id": "aa46742a-53ea-486c-9d1e-c9dab3339666",
             "data": {
               "type": "tm.Actor",
               "name": "Payment \nGateway",
@@ -380,7 +373,7 @@
           },
           {
             "position": {
-              "x": 570,
+              "x": 591,
               "y": 210
             },
             "size": {
@@ -468,23 +461,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "d5e344e9-0de1-4266-864e-96d3cd1f561e"
+                  "id": "af2cdf36-36d1-4149-aec4-770262dcd99e"
                 },
                 {
                   "group": "right",
-                  "id": "be1ff13b-8e2e-42e0-91ba-9f3ed0acefdd"
+                  "id": "ebf877e5-dfd7-48ad-afa7-b20c6e784e90"
                 },
                 {
                   "group": "bottom",
-                  "id": "81f298e4-2bda-4d98-9f53-901cbb37ecdf"
+                  "id": "6da1f520-aad9-4186-b3c5-cc81cd69e4a3"
                 },
                 {
                   "group": "left",
-                  "id": "4b02f903-dbec-48c8-b08c-c3bfaead7377"
+                  "id": "a50ce767-289c-49b1-acc0-9f3318e59df1"
                 }
               ]
             },
-            "id": "445a24b1-fb1f-40d0-8cee-ec26b344382f",
+            "id": "c2bfb3b3-aab9-4751-83a4-a0f76e177b05",
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
@@ -500,61 +493,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Order details",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Order details"
-            ],
-            "id": "58d49641-9ebf-46f6-96c3-e5550f52f210",
-            "source": {
-              "x": 170,
-              "y": 280
-            },
-            "target": {
-              "cell": "44461aa5-7b73-4922-87aa-6794d2e35df4",
-              "port": "8b7c9e36-d6ea-484f-ba0d-1ec6ebc792e9"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -592,17 +531,47 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "35ba3b6f-f0cc-4b7c-89d8-9f2bd0891957",
+            "id": "71d91a27-24e1-43ee-b1d7-1b486fe2cde7",
             "source": {
-              "cell": "44461aa5-7b73-4922-87aa-6794d2e35df4",
-              "port": "4e9d6973-88e0-40b3-836a-84ba5d9fa775"
+              "x": 200,
+              "y": 260
             },
             "target": {
-              "cell": "445a24b1-fb1f-40d0-8cee-ec26b344382f",
-              "port": "4b02f903-dbec-48c8-b08c-c3bfaead7377"
+              "x": 263,
+              "y": 390
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
