@@ -1517,6 +1517,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1600,7 +1601,6 @@
               ]
             },
             "id": "f85fae29-5f84-46b7-a664-99e7530dadd9",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Manager",
@@ -1615,7 +1615,7 @@
           },
           {
             "position": {
-              "x": 230,
+              "x": 320,
               "y": 175.00000000000006
             },
             "size": {
@@ -1634,6 +1634,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1717,7 +1718,6 @@
               ]
             },
             "id": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web \nApplication \nServer",
@@ -1735,8 +1735,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 190
+              "x": 540,
+              "y": 190.00000000000006
             },
             "size": {
               "width": 120,
@@ -1757,6 +1757,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1840,7 +1841,6 @@
               ]
             },
             "id": "c7702df1-381a-46c1-ab80-c5fe284a2288",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -1877,7 +1877,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Login / \nrequest \nsales reports",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1891,7 +1891,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Login / \nrequest \nsales reports"
             ],
             "id": "d29b92db-146b-4a89-9eb9-c122fdb20dc1",
             "source": {
@@ -1899,19 +1899,113 @@
               "y": 220
             },
             "target": {
-              "x": 273,
-              "y": 319
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
+              "port": "5884a0cc-e6e1-4d43-8c32-521b9a54e3ce"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query sales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query sales data"
+            ],
+            "id": "c0c19e98-3c63-4366-a27b-011187a6d2df",
+            "source": {
+              "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
+              "port": "73f89017-6e77-4aa1-a902-c9cc0ff5443c"
+            },
+            "target": {
+              "cell": "c7702df1-381a-46c1-ab80-c5fe284a2288",
+              "port": "25a2a3bb-8eed-4c88-b2f4-d3675ed05229"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sales data"
+            ],
+            "id": "e6312c7e-5de1-4c70-a505-e44ae7366570",
+            "source": {
+              "x": 540,
+              "y": 223
+            },
+            "target": {
+              "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
+              "port": "73f89017-6e77-4aa1-a902-c9cc0ff5443c"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 270
+              }
+            ]
           }
         ]
       }
