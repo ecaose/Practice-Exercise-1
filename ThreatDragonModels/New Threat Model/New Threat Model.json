@@ -2560,52 +2560,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Create menu\nitem",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Create menu\nitem"
-            ],
-            "id": "557396d2-1901-4e8f-a31c-555a2c356c59",
-            "source": {
-              "x": 460,
-              "y": 130
-            },
-            "target": {
-              "cell": "9ff037f6-c2d5-43b6-a28d-81f64cdfcdbb",
-              "port": "75e80b66-4562-47ad-b357-c37c3a2bf4dc"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Menu item created",
               "description": "",
               "outOfScope": false,
@@ -2630,7 +2584,117 @@
             "target": {
               "cell": "f2cd3147-a9b2-4065-a472-e95d6e45c465",
               "port": "d9ee541b-322d-4e35-b4f7-4b53c1b12c45"
-            }
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create menu\nitem",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Create menu\nitem"
+            ],
+            "id": "557396d2-1901-4e8f-a31c-555a2c356c59",
+            "source": {
+              "cell": "f2cd3147-a9b2-4065-a472-e95d6e45c465",
+              "port": "d9ee541b-322d-4e35-b4f7-4b53c1b12c45"
+            },
+            "target": {
+              "cell": "9ff037f6-c2d5-43b6-a28d-81f64cdfcdbb",
+              "port": "75e80b66-4562-47ad-b357-c37c3a2bf4dc"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Addition \nconfirmation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Addition \nconfirmation"
+            ],
+            "id": "7fb8db67-a7b5-4e42-8d1f-73bf4105b938",
+            "source": {
+              "x": 400,
+              "y": 190
+            },
+            "target": {
+              "cell": "e9982c54-42a1-4f19-b973-453d3f21ec97",
+              "port": "3d7cb01d-5980-4e12-82a8-b2a0422a5d80"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 230
+              }
+            ]
           }
         ]
       }
