@@ -752,52 +752,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 13,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Order details ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Order details "
-            ],
-            "id": "d62c1ec8-4fef-4370-bc2f-3dcf039dcc0a",
-            "source": {
-              "x": 170,
-              "y": 260
-            },
-            "target": {
-              "cell": "cc9eaf70-52c5-4666-a819-22a4b14de79d",
-              "port": "21799868-5884-490a-a142-0990e3393ca1"
-            }
           }
         ]
       }
