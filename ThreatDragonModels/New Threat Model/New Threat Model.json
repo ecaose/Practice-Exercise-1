@@ -595,16 +595,16 @@
             ],
             "id": "73ff4b19-42e3-44b6-8d32-b91d346e203a",
             "source": {
-              "x": 70,
-              "y": 100
+              "x": 30,
+              "y": 80
             },
             "target": {
-              "x": 70,
-              "y": 420
+              "x": 30,
+              "y": 400
             },
             "vertices": [
               {
-                "x": 170,
+                "x": 160,
                 "y": 230
               }
             ]
@@ -866,6 +866,40 @@
               "name": "Application Zone",
               "hasOpenThreats": false
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "External \nThird-party \n Zone",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "External \nThird-party \n Zone"
+            ],
+            "id": "d581db74-c4ab-4353-ae09-f702a095f4d6",
+            "source": {
+              "x": 950,
+              "y": 90
+            },
+            "target": {
+              "x": 970,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 230
+              }
+            ],
+            "zIndex": 15
           }
         ]
       },
