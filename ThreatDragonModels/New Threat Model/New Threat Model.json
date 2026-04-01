@@ -443,7 +443,14 @@
             },
             "children": [
               "07f70020-2903-4237-b8a3-ea884c9c5b81"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
