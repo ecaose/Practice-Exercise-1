@@ -2661,7 +2661,7 @@
         "cells": [
           {
             "position": {
-              "x": -130,
+              "x": -490,
               "y": 190.00000000000006
             },
             "size": {
@@ -2774,7 +2774,10 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
+            },
+            "children": [
+              "7f1eb90c-315c-4f81-b238-a5889673945d"
+            ]
           },
           {
             "position": {
@@ -3144,6 +3147,58 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Processed \nsales report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Processed \nsales report"
+            ],
+            "id": "542673c3-3ab3-4fdf-be9f-e966cfe0e191",
+            "source": {
+              "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
+              "port": "5884a0cc-e6e1-4d43-8c32-521b9a54e3ce"
+            },
+            "target": {
+              "cell": "8c9353de-2563-4b47-8467-529b64370e9a",
+              "port": "0ff3f62e-a95c-47f5-acca-bb38ecc70cf7"
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Login / \nrequest \nsales reports",
               "description": "",
               "outOfScope": false,
@@ -3162,8 +3217,8 @@
             ],
             "id": "d29b92db-146b-4a89-9eb9-c122fdb20dc1",
             "source": {
-              "cell": "f85fae29-5f84-46b7-a664-99e7530dadd9",
-              "port": "ac302f90-2c51-446c-b903-18408264c187"
+              "cell": "8c9353de-2563-4b47-8467-529b64370e9a",
+              "port": "0ff3f62e-a95c-47f5-acca-bb38ecc70cf7"
             },
             "target": {
               "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
@@ -3196,7 +3251,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Processed \nsales report",
+              "name": "Login/ \nsales report request input",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3210,12 +3265,64 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Processed \nsales report"
+              "Login/ \nsales report request input"
             ],
-            "id": "542673c3-3ab3-4fdf-be9f-e966cfe0e191",
+            "id": "6aaa23d2-3aaf-4d76-83e3-6c11de39e2ac",
             "source": {
-              "cell": "f5a15da8-7846-425c-8b0e-21cc826c7c58",
-              "port": "5884a0cc-e6e1-4d43-8c32-521b9a54e3ce"
+              "cell": "f85fae29-5f84-46b7-a664-99e7530dadd9",
+              "port": "ac302f90-2c51-446c-b903-18408264c187"
+            },
+            "target": {
+              "cell": "8c9353de-2563-4b47-8467-529b64370e9a",
+              "port": "9700ef7a-14e0-46f6-bc15-92b91f05123d"
+            },
+            "vertices": [
+              {
+                "x": -250,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Displayed process \nsales report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Displayed process \nsales report"
+            ],
+            "id": "5f3e6800-3514-4d02-bab0-ae2a4c572036",
+            "source": {
+              "x": -110,
+              "y": 220
             },
             "target": {
               "cell": "f85fae29-5f84-46b7-a664-99e7530dadd9",
@@ -3223,8 +3330,8 @@
             },
             "vertices": [
               {
-                "x": 180,
-                "y": 280
+                "x": -250,
+                "y": 260
               }
             ]
           },
@@ -3290,6 +3397,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 14,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -3317,8 +3425,127 @@
                 "x": 750,
                 "y": 230
               }
-            ],
-            "zIndex": 14
+            ]
+          },
+          {
+            "position": {
+              "x": -110,
+              "y": 175.00000000000006
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Frontend\n Web App"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "9e48388f-9b0e-49a4-bf23-d59b2e3c7b33"
+                },
+                {
+                  "group": "right",
+                  "id": "0ff3f62e-a95c-47f5-acca-bb38ecc70cf7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1bbc5d8c-dff2-498e-b560-a2a98ec9c44f"
+                },
+                {
+                  "group": "left",
+                  "id": "9700ef7a-14e0-46f6-bc15-92b91f05123d"
+                }
+              ]
+            },
+            "id": "8c9353de-2563-4b47-8467-529b64370e9a",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Process",
+              "name": "Frontend\n Web App",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ]
       },
