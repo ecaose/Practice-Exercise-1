@@ -2075,7 +2075,7 @@
           },
           {
             "position": {
-              "x": 830,
+              "x": 860,
               "y": 190.00000000000006
             },
             "size": {
@@ -2449,12 +2449,12 @@
             ],
             "id": "a3c30320-41bf-4ac4-aa45-3de1f76af11b",
             "source": {
-              "x": -60,
-              "y": 120
+              "x": -80,
+              "y": 70
             },
             "target": {
-              "x": -60,
-              "y": 350
+              "x": -70,
+              "y": 390
             },
             "vertices": [
               {
@@ -2462,6 +2462,40 @@
                 "y": 220
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database Zone\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Database Zone\n"
+            ],
+            "id": "01fc3c17-020a-4b74-8718-133c385a8d56",
+            "source": {
+              "x": 890,
+              "y": 100
+            },
+            "target": {
+              "x": 930,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 750,
+                "y": 230
+              }
+            ],
+            "zIndex": 14
           }
         ]
       },
