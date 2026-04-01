@@ -2635,34 +2635,6 @@
         "cells": [
           {
             "position": {
-              "x": 886,
-              "y": 165
-            },
-            "size": {
-              "width": 230,
-              "height": 190
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "8ca6a33c-b01c-46f3-81be-bec4a3d895e4",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "557396d2-1901-4e8f-a31c-555a2c356c59",
-                "ba6d58bc-3dca-4090-a028-e1ff3347cfa9"
-              ],
-              "containedElements": [
-                "9ff037f6-c2d5-43b6-a28d-81f64cdfcdbb"
-              ]
-            }
-          },
-          {
-            "position": {
               "x": 90,
               "y": 230
             },
@@ -2900,8 +2872,8 @@
           },
           {
             "position": {
-              "x": 941,
-              "y": 220
+              "x": 1061,
+              "y": 230
             },
             "size": {
               "width": 120,
@@ -3106,7 +3078,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "8ca6a33c-b01c-46f3-81be-bec4a3d895e4"
+                "e01de53b-067f-4516-8c6c-d5addb808377"
               ]
             },
             "labels": [
@@ -3123,8 +3095,8 @@
             },
             "vertices": [
               {
-                "x": 830,
-                "y": 200
+                "x": 880,
+                "y": 190
               }
             ]
           },
@@ -3264,7 +3236,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "8ca6a33c-b01c-46f3-81be-bec4a3d895e4"
+                "e01de53b-067f-4516-8c6c-d5addb808377"
               ]
             },
             "labels": [
@@ -3281,8 +3253,8 @@
             },
             "vertices": [
               {
-                "x": 810,
-                "y": 290
+                "x": 880,
+                "y": 300
               }
             ]
           },
@@ -3307,30 +3279,6 @@
             "data": {
               "type": "tm.Text",
               "name": "Application Zone",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 966,
-              "y": 155
-            },
-            "size": {
-              "width": 70,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "Data Zone"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 13,
-            "id": "6dae13bd-29f4-4f59-ac8e-8e418f1e7331",
-            "data": {
-              "type": "tm.Text",
-              "name": "Data Zone",
               "hasOpenThreats": false
             }
           },
@@ -3367,6 +3315,53 @@
                 "y": 250
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database \nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "557396d2-1901-4e8f-a31c-555a2c356c59",
+                "ba6d58bc-3dca-4090-a028-e1ff3347cfa9"
+              ],
+              "containedElements": [
+                "9ff037f6-c2d5-43b6-a28d-81f64cdfcdbb"
+              ]
+            },
+            "labels": [
+              "Database \nBoundary"
+            ],
+            "id": "e01de53b-067f-4516-8c6c-d5addb808377",
+            "source": {
+              "x": 1204,
+              "y": 94
+            },
+            "target": {
+              "x": 1210,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 1060,
+                "y": 160
+              },
+              {
+                "x": 980,
+                "y": 270
+              },
+              {
+                "x": 1080,
+                "y": 360
+              }
+            ],
+            "zIndex": 15
           }
         ]
       }
