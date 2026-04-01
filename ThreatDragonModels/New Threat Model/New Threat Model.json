@@ -502,7 +502,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73ff4b19-42e3-44b6-8d32-b91d346e203a"
+              ]
             },
             "labels": [
               "Order confirmation\nand Status update"
@@ -558,7 +560,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73ff4b19-42e3-44b6-8d32-b91d346e203a"
+              ]
             },
             "labels": [
               "Order details"
@@ -614,7 +618,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73ff4b19-42e3-44b6-8d32-b91d346e203a"
+              ]
             },
             "labels": [
               "Order input"
@@ -631,45 +637,7 @@
             "vertices": [
               {
                 "x": -150,
-                "y": 215
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Untrusted \nClient Zone",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Untrusted \nClient Zone"
-            ],
-            "id": "73ff4b19-42e3-44b6-8d32-b91d346e203a",
-            "source": {
-              "x": -20,
-              "y": 40
-            },
-            "target": {
-              "x": -80,
-              "y": 440
-            },
-            "vertices": [
-              {
-                "x": 110,
-                "y": 140
-              },
-              {
-                "x": 160,
-                "y": 230
+                "y": 170
               }
             ]
           },
@@ -908,6 +876,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1001,8 +970,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 18
+            }
           },
           {
             "position": {
@@ -1025,6 +993,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -1108,7 +1077,6 @@
               ]
             },
             "id": "2da42c89-a90d-482c-a773-a74ef2dab492",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Frontend \nWeb App",
@@ -1122,6 +1090,96 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Untrusted \nClient Zone",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6ee4f602-36f6-41d0-a741-594b9de8687e",
+                "3a001099-6c3f-4240-b061-60b917b5a1ef",
+                "c8ad5193-078f-4ee8-951b-be941d3e2c13"
+              ],
+              "containedElements": [
+                "2da42c89-a90d-482c-a773-a74ef2dab492"
+              ]
+            },
+            "labels": [
+              "Untrusted \nClient Zone"
+            ],
+            "id": "73ff4b19-42e3-44b6-8d32-b91d346e203a",
+            "source": {
+              "x": -170,
+              "y": 40
+            },
+            "target": {
+              "x": -80,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 30,
+                "y": 90
+              },
+              {
+                "x": 110,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 21,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Displayed \norder \nconfirmation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Displayed \norder \nconfirmation"
+            ],
+            "id": "d62a414a-fc01-49ba-b193-2f36e8ded8c6",
+            "source": {
+              "x": -80,
+              "y": 220
+            },
+            "target": {
+              "cell": "5d353cf8-c9de-40a7-9be6-ae321588222d",
+              "port": "ceb5c24b-e26c-4d29-9447-4146d4a19256"
             }
           }
         ]
