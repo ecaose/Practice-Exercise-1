@@ -295,7 +295,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "37a11d75-7002-4456-8232-fd2990007973"
+              ]
             },
             "labels": [
               "New order details \nand payment status"
@@ -347,7 +349,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "37a11d75-7002-4456-8232-fd2990007973"
+              ]
             },
             "labels": [
               "Stored order record / \nconfirmation"
@@ -871,6 +875,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 15,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -898,8 +903,46 @@
                 "x": 820,
                 "y": 230
               }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database \nZone",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "d1ef0336-3f38-4e8b-82dd-f051db05fb93",
+                "0fee84be-62e5-4b57-9760-cbd5a76cfe7e"
+              ],
+              "containedElements": [
+                "c2bfb3b3-aab9-4751-83a4-a0f76e177b05"
+              ]
+            },
+            "labels": [
+              "Database \nZone"
             ],
-            "zIndex": 15
+            "id": "37a11d75-7002-4456-8232-fd2990007973",
+            "source": {
+              "x": 330,
+              "y": 720
+            },
+            "target": {
+              "x": 750,
+              "y": 720
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 560
+              }
+            ],
+            "zIndex": 16
           }
         ]
       },
