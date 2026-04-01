@@ -2133,7 +2133,12 @@
               "cell": "69ad9270-3412-490f-8890-0dce68b2f2e7",
               "port": "c1f6f9ca-5528-429d-9457-bbc590910f5f"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -160,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2186,49 +2191,10 @@
                 "y": 290
               },
               {
-                "x": -170,
-                "y": 290
-              },
-              {
                 "x": -200,
                 "y": 290
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -2491,12 +2457,7 @@
               "cell": "69ad9270-3412-490f-8890-0dce68b2f2e7",
               "port": "c1f6f9ca-5528-429d-9457-bbc590910f5f"
             },
-            "vertices": [
-              {
-                "x": -150,
-                "y": 180
-              }
-            ]
+            "vertices": []
           }
         ]
       },
